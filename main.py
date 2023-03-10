@@ -14,7 +14,7 @@ conn = sf.connect(
 # Execute SQL statement and perform data transformation
 result = ''
 cursor = conn.cursor()
-cursor.execute("INSERT INTO  MY_TABLE(name,age,add) values('Kanaka',32,'Bangalore');")
+cursor.execute("INSERT INTO  MY_TABLE(name,age,add) values('Kanakamma',32,'Bangalore');")
 rows = cursor.fetchall()
 
 print(rows)
